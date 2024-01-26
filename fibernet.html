@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home.html">الرئيسية</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Home_phone.html">منزلي هانف ثابت</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Home_internet.html">منزلي انترنت</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">اعمال انترنت</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">اعمال هانف ثابت</a>
+        </li>
+    
+      </ul>
+    </div>
+</nav>
+
+
+<img src="img/main.jpg" alt="Cinque Terre" width="1000" height="500">
+
+
+
+      <div class="container">
+        <br>      <br>
+        <div class="row"> <h3 class="title_">طلب خدمة فايبر نت </h3></div>
+       <br>
+       <form action="C:\document\huda\SyiaNet\pament.html">
+        <h4>نوع الخدمة المطلوبة</h4>
+        <input type="radio" id="new" name="type" value="0" >
+       <label for="new" class="col-md-4">طلب جديد السرعة بمدة الالتزام (سنة )</label> <input class="form-control " type="number" id="year1" placeholder="عدد السنوات" ><br>
+       <input type="radio" id="edit" name="type" value="1">
+       <label for="edit"  class="col-md-4">طلب تعديل   </label> 
+       <input type="number" id="spead_old" placeholder="السرعة القديمة"  class="form-control ">
+       <input type="number" id="spead_new" placeholder="السرعة الحديثة"  class="form-control ">
+       <br>
+       <input type="radio" id="cancl" name="type" value="2">
+       <label for="cancl">طلب الغاء</label  class="col-md-4">  <input type="number" id="year2" placeholder="عدد السنوات"  class="form-control " ><br>
+      
+       <br>
+   
+       <div class="row" id="normal_man">
+        <h4>الشخص الطبيعي</h4>
+        <hr>
+       <div class="row">
+        <div class="col-md-4">
+            <label for="name_normal_man" class="form-label">الأسم الثلاثي</label>
+            <input type="text" class="form-control" id="name_normal_man">
+          </div>
+          <div class="col-md-4">
+            <label for="name_normal_man_mom" class="form-label">اسم الأم</label>
+            <input type="text" class="form-control" id="name_normal_man_mom">
+          </div>
+          <div class="col-md-4">
+            <label for="name_normal_man_id_number" class="form-label">الرقم الوطني</label>
+            <input type="text" class="form-control" id="name_normal_man_id_number">
+          </div>
+       </div>
+       
+       <div class="row">
+        <div class="col-md-4">
+            <label for="name_normal_man_birthday" class="form-label">تاريخ الميلاد</label>
+            <input type="date" class="form-control" id="name_normal_man_birthday">
+          </div>
+          <div class="col-md-4">
+            <label for="name_normal_man_phone" class="form-label">الهاتف</label>
+            <input type="number" class="form-control" id="name_normal_man_phone">
+          </div>
+          <div class="col-md-4">
+            <label for="name_normal_man_id_phone2" class="form-label">رقم الجوال</label>
+            <input type="number" class="form-control" id="name_normal_man_id_phone2">
+          </div>
+       </div>
+       <div class="row">
+        <div class="col-md-4">
+            <label for="name_normal_man_fax" class="form-label">فاكس</label>
+            <input type="text" class="form-control" id="name_normal_man_fax">
+          </div>
+          <div class="col-md-8">
+            <label for="name_normal_man_email" class="form-label">البريد الالكتروني</label>
+            <input type="number" class="form-control" id="name_normal_man_email">
+          </div>
+       </div>
+    </div>   
+   
+    <div class="row" id="another_man">
+        <h4>الشخص الاعتباري</h4>
+        <hr> 
+        <div class="row">
+            <div class="col-md-4">
+                <label for="name_another_man" class="form-label">اسم الشخص الاعتباري</label>
+                <input type="text" class="form-control" id="name_another_man">
+              </div>
+              <div class="col-md-8">
+                <label for="number_regester_another_man" class="form-label">رقم السجل</label>
+                <input type="text" class="form-control" id="number_regester_another_man">
+              </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label for="name_another_type_active" class="form-label">نوع النشاط</label>
+                <input type="text" class="form-control" id="name_another_type_active">
+              </div>
+              <div class="col-md-4">
+                <label for="another_man_phone" class="form-label">الهاتف</label>
+                <input type="text" class="form-control" id="another_man_phone">
+              </div>
+              <div class="col-md-4">
+                <label for="another_man_phone2" class="form-label">رقم الجوال</label>
+                <input type="text" class="form-control" id="another_man_phone2">
+              </div>
+           </div>
+           <div class="row">
+            <div class="col-md-4">
+                <label for="another_man_fax" class="form-label">فاكس</label>
+                <input type="text" class="form-control" id="another_man_fax">
+              </div>
+              <div class="col-md-8">
+                <label for="another_man_email" class="form-label">البريد الالكتروني</label>
+                <input type="number" class="form-control" id="another_man_email">
+              </div>
+           </div>
+           <div class="row">
+            <div class="col-md-4">
+                <label for="name_another_man_legel" class="form-label"> الأسم الثلاثي للممثل القانوني</label>
+                <input type="text" class="form-control" id="name_another_man_legel">
+              </div>
+              <div class="col-md-4">
+                <label for="name_another_man_legel_mom" class="form-label">اسم الأم</label>
+                <input type="text" class="form-control" id="name_another_man_legel_mom">
+              </div>
+              <div class="col-md-4">
+                <label for="name_another_man_legel_id_number" class="form-label">الرقم الوطني</label>
+                <input type="text" class="form-control" id="name_another_man_legel_id_number">
+              </div>
+           </div>
+    </div>
+    <div class="row" id="address">
+        <h4>العنوان مفصلا</h4>
+        <hr> 
+        <div class="row">
+            <div class="col-md-4">
+                <label for="covernorat" class="form-label">المحافظة</label>
+                <input type="text" class="form-control" id="covernorat">
+              </div>
+              <div class="col-md-4">
+                <label for="city" class="form-label">المدينة </label>
+                <input type="text" class="form-control" id="city">
+              </div>
+              <div class="col-md-4">
+                <label for="center" class="form-label">المركز </label>
+                <input type="text" class="form-control" id="center">
+              </div>
+           </div>
+           <div class="row">
+            <div class="col-md-4">
+                <label for="area" class="form-label">المنطقة</label>
+                <input type="text" class="form-control" id="area">
+              </div>
+              <div class="col-md-4">
+                <label for="street" class="form-label">الشارع </label>
+                <input type="text" class="form-control" id="street">
+              </div>
+              <div class="col-md-4">
+                <label for="floor" class="form-label">البناية و الطابق </label>
+                <input type="text" class="form-control" id="floor">
+              </div>
+              <p>اجرة التركيب لمرة واحدة 100,000 تشمل وصلة ضوئية لمسافة 20 متر و لكل متر اضافي يتم يتم احتسابها
+                 وفق الاجور الناقذة في حال كانت عبر راوتر FTTH</p>
+                 <hr>
+           </div>
+    </div>
+
+    <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Dual Play</th>
+                <th>Triple Play</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Voice,Internet</td>
+                <td>
+                  Voice,Internet,IPTV<br>
+                  TV Premum ,Tv Diamond 
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    <table  class="table table-bordered">
+                     <tr>
+                        <td>8M</td>
+                        <td>10M</td>
+                        <td>16M</td>
+                     </tr>
+                     <tr>
+                        <td>حجم التحمبل\العتبة</td>
+                        <td>حجم التحمبل\العتبة</td>
+                        <td>حجم التحمبل\العتبة</td>
+                     </tr>
+                     <tr>
+                        <td> غيغا225 \1 ميغا</td>
+                        <td> غيغا225 \1 ميغا</td>
+                        <td> غيغا225 \1 ميغا</td>
+                     </tr>
+                     <tr>
+                        <td> 63,000  ل.س</td>
+                        <td>77.000 ل.س</td>
+                        <td>90,000 ل.س</td>
+                     </tr>
+                    </table>
+               </td>
+               <td>
+                <table  class="table table-bordered">
+                 <tr>
+                    <td>8M</td>
+                    <td>10M</td>
+                    <td>16M</td>
+                 </tr>
+                 <tr>
+                    <td>حجم التحمبل\العتبة</td>
+                    <td>حجم التحمبل\العتبة</td>
+                    <td>حجم التحمبل\العتبة</td>
+                 </tr>
+                 <tr>
+                    <td> غيغا225 \1 ميغا</td>
+                    <td> غيغا225 \1 ميغا</td>
+                    <td> غيغا225 \1 ميغا</td>
+                 </tr>
+                 <tr>
+                    <td> 73,000  ل.س</td>
+                    <td>87.000 ل.س</td>
+                    <td>1000,000 ل.س</td>
+                 </tr>
+                </table>
+           </td>
+              </tr>
+             
+            </tbody>
+      </table>
+      <div>
+        <ul>
+            <Li>خدمة الصوت ضمن الباقة غير متاحة حاليا.</Li>
+            <li>يترتب على المشترك مبلغ و قدره 40,000 ل.س اجور دراسة الاعمال المدنية خارج المناطق المدروسة </li>
+            <li>في حال طلب SESSION اضافية لخدمة ال IPIV عبر راوتر FTTH يضاف مبلغ 100,000 ل.س شهريا لكل جلسة اضافية </li>
+            <li>مدة الالتزام لخدمة الالنترنت سنة واحدة </li>
+            <li>يترتب على المشترك دفع مبلغ تأمين تسترد عند نهاية العقد </li>
+            <li>يترتب على المشترك في حال الغاء الخدمة قبل انتهاء العقد تعويض انهاء الخدمة و قيمته تكون وفق التعليمات و الاجور النافذة </li>
+            <li>اجر تخفيض السرعة ضمن السرعات المحددة لخدمة الانترنت وفق الاجور و الضوابط لكل عملية</li>
+            <li>  اي طلب رفع السرعة الى سرعات اعلى من 16 يترتب على المشترك اجر يعادل قيمة الفرق بين اجر VIP OR VIP+خدمة  الى  lit  في حال طلب الانتقال من خدمة فايبر</li>
+        </ul>
+      </div>
+    <input type="submit" value="Submit">
+      </form>
+
+     
+      </div>
+  
+
+
+</body>
+</html>

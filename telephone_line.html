@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<body>
+
+<form id="regForm" action="sur.html">
+    <h1>تركيب خط هاتف</h1>
+  <!-- One "tab" for each step in the form: -->
+  <div class="tab">
+    <p>وصف الخدمة : تركيب خط هاتف حيث يتم تقديم طلب الاشتراك في المركز الهاتفي (مركز خدمات الزبائن ) من قبل صاحب العلاقة أو وكيله القانوني و في حال توفر الإمكانية يتم التوقيع على العقد. </p>
+  
+        
+        <p>في حال عدم توفر الامكانية الفنية لتركيب هاتف عن طريق الشبكة الأرضية يمكن الحصول على: (خدمة الهاتف عبر محطات 4RF أو WCDMA متوفرة في بعض المراكز(ويحصل المشترك على:
+        </p>
+        <ul>
+            <li>  -/130/مكالمة محلية مجانية علماً أن كل مكالمة 3دقائق. </li>
+             <li> - /15/ دقائق قطرية مجانية 
+           </li>
+               </ul>
+        <p>	تصنيفات الخدمة : المواطنون – الاعمال – الجهات الحكومية – المنظمات الاهلية .
+        </p>
+        <p>معدل تنفيذ الخدمة بالأيام : 2 يوم عمل .
+        </p>
+  </div>
+  <div class="tab">
+    <h2>طلب تركيب خط هاتف </h2>
+    
+     <h4> المعلومات الشخصية</h4>
+     <hr>
+<div class="row">
+        <div class="col-md-4">
+         <label for="name_normal_man" class="form-label col-md-4">الأسم الثلاثي</label>
+         <input type="text" class="rr" id="name_normal_man" oninput="this.className = ''" name="name_normal_man">
+       </div>
+       <div class="col-md-4">
+         <label for="name_normal_man_mom" class="form-label col-md-4">اسم الأم</label>
+         <input type="text"  class="rr"  id="name_normal_man_mom" oninput="this.className = ''" name="name_normal_man_mom">
+       </div>
+       <div class="col-md-4">
+         <label for="name_normal_man_id_number" class="form-label col-md-4">الرقم الوطني</label>
+         <input type="text"  class="rr"  id="name_normal_man_id_number" oninput="this.className = ''" name="name_normal_man_id_number">
+       </div>
+   
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <label for="name_normal_man_birthday" class="form-label col-md-4">تاريخ الميلاد</label>
+        <input type="date"  class="rr" id="name_normal_man_birthday" oninput="this.className = ''" name="name_normal_man_birthday">
+      </div>
+      <div class="col-md-4">
+        <label for="name_normal_man_phone" class="form-label col-md-4">اقرب رقم هاتف </label>
+        <input type="text"  class="rr" id="name_normal_man_phone" oninput="this.className = ''" name="name_normal_man_phone">
+      </div>
+      <div class="col-md-4">
+        <label for="name_normal_man_id_phone2" class="form-label col-md-4">رقم الجوال</label>
+        <input type="text"  class="rr"  id="name_normal_man_id_phone2" oninput="this.className = ''" name="name_normal_man_id_phone2">
+      </div>
+   </div>
+   <div class="row">
+    <div class="col-md-4">
+        <label for="name_normal_man_fax" class="form-label col-md-4">فاكس</label>
+        <input type="text"  class="rr"  id="name_normal_man_fax" oninput="this.className = ''" name="name_normal_man_fax">
+      </div>
+      <div class="col-md-8">
+        <label for="name_normal_man_email" class="form-label col-md-2 ">البريد الالكتروني</label>
+        <input type="text"  class="rr" id="name_normal_man_email" oninput="this.className = ''" name="name_normal_man_email">
+      </div>
+</div>
+
+   <h4>العنوان مفصلا</h4>
+        <hr> 
+        <div class="row">
+            <div class="col-md-4">
+                <label for="covernorat" class="form-label">المحافظة</label>
+                <input type="text" class="rr" id="covernorat" oninput="this.className = ''" name="covernorat">
+              </div>
+              <div class="col-md-4">
+                <label for="city" class="form-label">المدينة </label>
+                <input type="text" class="rr" id="city" oninput="this.className = ''" name="city">
+              </div>
+              <div class="col-md-4">
+                <label for="center" class="form-label">المركز </label>
+                <input type="text" class="rr" id="center" oninput="this.className = ''" name="center">
+              </div>
+           </div>
+           <div class="row">
+            <div class="col-md-4">
+                <label for="area" class="form-label">المنطقة</label>
+                <input type="text" class="rr" id="area" oninput="this.className = ''" name="area">
+              </div>
+              <div class="col-md-4">
+                <label for="street" class="form-label">الشارع </label>
+                <input type="text" class="rr" id="street" oninput="this.className = ''" name="street">
+              </div>
+              <div class="col-md-4">
+                <label for="floor" class="form-label">البناية و الطابق </label>
+                <input type="text" class="rr" id="floor" oninput="this.className = ''" name="floor">
+              </div>
+                 <hr>
+           </div>
+  </div>
+  <div class="tab">
+    <h2>  الملفات المطلوبة </h2>
+  <label for="id_pucter" class="form-label" > تحميل صورة الهوية   </label>
+  <input type="file" id="id_pucter"  oninput="this.className = ''" name="id_pucter" multiple />
+  <label for="formFileMultiple" class="form-label" > تحميل براءة ذمة من الكهربا    </label>
+  <input type="file" id="formFileMultiple"  oninput="this.className = ''" name="formFileMultiple" multiple />
+<br>
+  </div>
+  <div class="tab">
+    <h2>شروط الخدمة </h2>
+  
+        <ul>
+            <li>وجود صاحب العلاقة أو وكيله القانوني.</li>
+            <li>بالنسبة لغير السوريين (الأجانب و العرب): تقدم نفس الوثائق ويضاف إليها وجود كفيل أو تسديد تأمينات هاتفية وفق ما يلي:</li>
+               <ul>
+                <li>بدون أي حجب</li>
+                <li>حجب النداء والمواضع والخلوي والشبكة الذكية
+                </li>
+                <li>الاشتراك المؤقت المحجوب عن النداء القطري والدولي
+                </li>
+                <li>الاشتراك المؤقت المحجوب عن النداء الدولي فقط
+                </li>
+           
+                <li>الاشتراك المؤقت بدون حجب
+                </li>
+          
+               </ul>
+            <li>بالنسبة للبنانيين المقيمين ضمن الأراضي السورية يتم إعفاءهم من رسم التأمين للخطوط الهاتفية شريطة تقديم سند ملكية أرض أو بناء باسم صاحب الاشتراك .
+            </li>
+        </ul>
+  <label class="form-check-label" for="agree">أوافق على جميع شروط الخدمة </label>
+  <input class="" type="checkbox" value="1" id="agree" oninput="this.className = ''" name="agree" >
+  </div>
+
+  <div class="tab">
+    <h2> رسوم الخدمة </h2>
+    <ul>
+        <li>أجر تركيب: 10000 ل.س قيمة تؤخد لمرة واحدة للتركيب
+        </li>
+        <li>أجر اشتراك: 1000 ل.س الأجر الشهري للهاتف الثابت دون أجور المكالمات ( مع 120 مكالمة محلية مجانية شهرياً + 10 دقائق قطرية شهرية مجانية)
+        </li>
+        <li>طابع الإدارة المحلية: 100 ل.س رسوم للإدارة الموحدة تؤخذ عند تركيب خط هاتفي
+        </li>
+        <li>ثمن الإضبارة: 750 ل.س تدفع نقداً في الشركة السورية للاتصالات
+        </li>
+        <li>طابع الهلال الأحمر السوري: 25 ل.س
+        </li>
+        <li>طابع مالي: 270 ل.س تلصق على العقد
+        </li>
+        <li>رسم محافظة: 100 ل.س
+        </li>
+        <li>طابع الشهيد: 200 ل.س
+        </li>
+        <li>طابع مجهود حربي: 300 ل.س
+        </li>
+     
+    </ul>
+    <h3>  التأمينات والسلفة:</h3>
+   <table class="table table-bordered">
+         
+              <tbody>
+                <tr>
+                  <td>75,000</td>
+                  <td>التأمينات والسلفة:
+                    التأمينات الهاتفية للاجانب والعرب غير السوريين	ل.س</td>
+                </tr>
+                <tr>
+                  <td>15,000</td>
+                  <td>التأمينات الهاتفية للأجانب والعرب غير السوريين مع حجب النداء والمواضع والخلوي والشبكة الذكية	ل.س</td>
+                </tr>
+                <tr>
+                  <td>1,500</td>
+                  <td>التأمينات الهاتفية للاشتراك المؤقت المحجوب عن النداء القطري والدولي	ل.س.</td>
+                </tr>
+                <tr>
+                  <td>7,500</td>
+                  <td>التأمينات الهاتفية للاشتراك المؤقت المحجوب عن النداء الدولي فقط	ل.س</td>
+                </tr>
+                <tr>
+                  <td>40,000</td>
+                  <td>التأمينات الهاتفية للاشتراك المؤقت بدون حجب	ل.س.</td>
+                </tr>
+  
+              </tbody>
+        </table>
+        <h3>أجر الدقيقة القطرية:
+        </h3>
+        <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>أجر الدقيقة القطرية (ل.س))	</th>
+                <th>ساعات الذروة والتخفيض
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>من الساعة /9.00/ الى الساعة /17.00/
+                </td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>من الساعة /17.00/ الى الساعة /22.00/
+                </td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>يوم الجمعة كاملاً
+                </td>
+                <td>2</td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+  </div>
+  <div class="tab">
+    <h2> الدفع </h2>
+    <p>(لا تسترد في حال عدم الموافقة)رسوم دراسة الخدمة : 350000 ل.س لمرة واحدة</p>
+    <p>في حال تم الموافقة على الخدمةاو الرفض سيتم الرد خلال شهر </p>
+
+    <div class="my-3">
+        <div class="form-check">
+          <input id="credit" name="paymentMethod" type="radio" checked required>
+          <label  for="credit">Credit card</label>
+        </div>
+        <div class="form-check">
+          <input id="debit" name="paymentMethod" type="radio"  required>
+          <label  for="debit">Debit card</label>
+        </div>
+        <div class="form-check">
+          <input id="paypal" name="paymentMethod" type="radio"  required >
+          <label for="paypal">PayPal</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+            <label for="cc-name" class="form-label">الأسم على البطاقة</label>
+            <input type="text"  id="cc-name" placeholder="" required oninput="this.className = ''" name="cc-name">
+          </div>
+        
+          <div class="col-md-6">
+            <label for="cc-number" class="form-label">رقم البطاقة</label>
+            <input type="text"  id="cc-number" placeholder="" required oninput="this.className = ''" name="cc-number">
+          </div>
+      </div>
+     <div class="row">
+        <div class="col-md-3">
+            <label for="cc-expiration" class="form-label">تاريخ الانتهاء</label>
+            <input type="text" id="cc-expiration" placeholder="" oninput="this.className = ''" name="cc-expiration" >
+          </div>
+        
+          <div class="col-md-3">
+            <label for="cc-cvv" class="form-label">CVV</label>
+            <input type="text"  id="cc-cvv" placeholder="" required oninput="this.className = ''" name="cc-cvv">
+          </div>
+     </div>
+     <br> 
+  </div>
+
+  <div style="overflow:auto;">
+    <div style="float:right;">
+      <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+      <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+    </div>
+  </div>
+  <!-- Circles which indicates the steps of the form: -->
+  <div style="text-align:center;margin-top:40px;">
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+  </div>
+</form>
+
+<script>
+var currentTab = 0; // Current tab is set to be the first tab (0)
+showTab(currentTab); // Display the current tab
+
+function showTab(n) {
+  // This function will display the specified tab of the form...
+  var x = document.getElementsByClassName("tab");
+  x[n].style.display = "block";
+  //... and fix the Previous/Next buttons:
+  if (n == 0) {
+    document.getElementById("prevBtn").style.display = "none";
+  } else {
+    document.getElementById("prevBtn").style.display = "inline";
+  }
+  if (n == (x.length - 1)) {
+    document.getElementById("nextBtn").innerHTML = "Submit";
+  } else {
+    document.getElementById("nextBtn").innerHTML = "Next";
+  }
+  //... and run a function that will display the correct step indicator:
+  fixStepIndicator(n)
+}
+
+function nextPrev(n) {
+  // This function will figure out which tab to display
+  var x = document.getElementsByClassName("tab");
+  // Exit the function if any field in the current tab is invalid:
+  if (n == 1 && !validateForm()) return false;
+  // Hide the current tab:
+  x[currentTab].style.display = "none";
+  // Increase or decrease the current tab by 1:
+  currentTab = currentTab + n;
+  // if you have reached the end of the form...
+  if (currentTab >= x.length) {
+    // ... the form gets submitted:
+    document.getElementById("regForm").submit();
+    return false;
+  }
+  // Otherwise, display the correct tab:
+  showTab(currentTab);
+}
+
+function validateForm() {
+  // This function deals with validation of the form fields
+  var x, y, i, valid = true;
+  x = document.getElementsByClassName("tab");
+  y = x[currentTab].getElementsByTagName("input");
+  // A loop that checks every input field in the current tab:
+  for (i = 0; i < y.length; i++) {
+    // If a field is empty...
+    if (y[i].value == "") {
+      // add an "invalid" class to the field:
+      y[i].className += " invalid";
+      // and set the current valid status to false
+      valid = false;
+    }
+  }
+  // If the valid status is true, mark the step as finished and valid:
+  if (valid) {
+    document.getElementsByClassName("step")[currentTab].className += " finish";
+  }
+  return valid; // return the valid status
+}
+
+function fixStepIndicator(n) {
+  // This function removes the "active" class of all steps...
+  var i, x = document.getElementsByClassName("step");
+  for (i = 0; i < x.length; i++) {
+    x[i].className = x[i].className.replace(" active", "");
+  }
+  //... and adds the "active" class on the current step:
+  x[n].className += " active";
+}
+</script>
+
+</body>
+</html>
